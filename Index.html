@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style-main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/script/script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+  <div class="nav-container">
+    <div class="logo">OESTE CHAPAS</div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Avaliações</a></li>
+        <li><a href="#">Projetos</a></li>
+      </ul>
+    </nav>
+
+    <a href="#" class="cta">Solicitar Orçamento</a>
+
+    <div class="menu-toggle" onclick="openMenu()">☰</div>
+  </div>
+</header>
+
+<!-- MENU MOBILE -->
+<div class="mobile-menu" id="mobileMenu">
+  <div onclick="closeMenu()" style="font-size:24px; cursor:pointer;">✕</div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Produtos</a></li>
+    <li><a href="#">Avaliações</a></li>
+    <li><a href="#">Projetos</a></li>
+  </ul>
+</div>
+    
+    <main class="main">
+  <div class="main-content">
+      <div class="main-text">
+          <h1>Oeste <span>Chapas</span></h1>
+          <p>
+            Especialistas em chapas de aço, perfis metálicos e soluções estruturais para construção civil e indústria.
+            Compre online com segurança, estoque em tempo real e entrega rápida.
+          </p>
+      </div>
+  </div>
+    </main>
+
+    <section class="about-section">
+  <div class="about-container">
+
+    <div class="about-image">
+      <img src="/imagens/homem-trabalhando.png" alt="Chapas de aço">
+    </div>
+
+    <div class="about-content">
+      <span class="about-tag">Quem somos</span>
+      <h2>Parceira confiável em chapas de aço, perfis e soluções metálicas</h2>
+      <p>
+        A Oeste Chapas é uma distribuidora especializada em produtos siderúrgicos,
+        oferecendo soluções completas para construção civil, indústria e serralheria.
+        Trabalhamos com materiais certificados, logística ágil e atendimento técnico
+        para garantir segurança e eficiência em cada projeto.
+      </p>
+
+      <div class="about-metrics">
+        <div>
+          <strong>350+</strong>
+          <span>Clientes atendidos</span>
+        </div>
+        <div>
+          <strong>12</strong>
+          <span>Anos de mercado</span>
+        </div>
+        <div>
+          <strong>900+</strong>
+          <span>Pedidos entregues</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="how-section">
+  <div class="how-container">
+
+    <div class="how-text">
+      <span class="how-tag">Como funciona</span>
+      <h2>Cuidamos do seu projeto como se fosse nosso</h2>
+      <p class="how-subtitle">
+        Da escolha do material à entrega, a Oeste Chapas garante um processo simples,
+        rápido e seguro para sua obra ou indústria.
+      </p>
+
+      <div class="how-steps">
+        <div class="step">
+          <div class="icon"><i class="fa-solid fa-clipboard"></i></div>
+          <div>
+            <h4>Solicite seu pedido</h4>
+            <p>Escolha os produtos, informe as medidas e entre em contato pelo site ou WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div>
+            <h4>Receba a avaliação técnica</h4>
+            <p>Nossa equipe confere especificações e indica o material ideal para sua aplicação.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="icon"><i class="fa-solid fa-truck"></i></div>
+          <div>
+            <h4>Separação e entrega</h4>
+            <p>Seu pedido é separado no estoque e enviado com segurança no prazo combinado.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="how-image">
+      <picture class="img-how-section"></picture>
+    </div>
+
+  </div>
+
+  
+</section>
+<section class="why-section">
+<span class="why-tag">Por que escolher a Oeste Chapas</span>
+<h2>Soluções em aço feitas para durar</h2>
+<p class="why-subtitle">
+  A Oeste Chapas entrega qualidade, resistência e agilidade para obras e indústrias,
+  combinando materiais certificados e atendimento técnico especializado.
+</p>
+
+<div class="why-cards">
+
+  <div class="why-card">
+    <img src="/imagens/homem-trabalhando-3.png" alt="Chapas de aço">
+    <div class="card-overlay">
+      <h3>Alta durabilidade</h3>
+      <p>Produtos resistentes à corrosão e ao desgaste do tempo.</p>
+    </div>
+  </div>
+
+  <div class="why-card highlight">
+    <img src="/imagens/homem-trabalhando-4.png" alt="Trabalho com aço">
+  </div>
+
+  <div class="why-card dark">
+    <img src="/imagens/homem-trabalhando-5.png" alt="Estrutura metálica">
+    <div class="card-overlay">
+      <h3>Redução de custos</h3>
+      <p>Menor desperdício com materiais sob medida e entrega rápida.</p>
+      <a href="#" class="card-btn">Saiba mais</a>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<section>
+  <h2>Nossos Produtos</h2>
+  <div class="products">
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://acocearense.vtexassets.com/arquivos/ids/156087/chapa-fina-fria.jpg?v=638547963062930000" alt="Chapa Galvanizada">
+      </div>
+      <h3>Chapa Galvanizada 0,90mm</h3>
+      <ul>
+        <li>Dimensão: 1,20 x 2,40m</li>
+        <li>Revestimento zincado</li>
+        <li>Alta resistência à corrosão</li>
+        <li>Uso: coberturas e fechamentos</li>
+      </ul>
+      <div class="price">R$ 279,90</div>
+      <button onclick="comprar('Chapa Galvanizada 0,90mm')">Comprar</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS_6lnnmeTTpVWUCdwKF8TePIYy3oU73Hl1HHUVtacpoHRrZVGCr1klDH4l-yQ5kRX2YqCGtA5tuwA5Z_nbc-qh7-YArNTf" alt="Chapa Preta">
+      </div>
+      <h3>Chapa Preta 3mm</h3>
+      <ul>
+        <li>Dimensão: 1,00 x 2,00m</li>
+        <li>Aço laminado a quente</li>
+        <li>Alta resistência estrutural</li>
+        <li>Uso industrial</li>
+      </ul>
+      <div class="price">R$ 319,90</div>
+      <button onclick="comprar('Chapa Preta 3mm')">Comprar</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://acocearense.vtexassets.com/arquivos/ids/157593-1440-auto/TUBO_QUADRADO_POSI_03-800x450.webp?v=638816396382730000&quality=8" alt="Tubo Metalon">
+      </div>
+      <h3>Tubo Metalon 30x30mm</h3>
+      <ul>
+        <li>Espessura: 1,20mm</li>
+        <li>Comprimento: 6m</li>
+        <li>Soldável</li>
+        <li>Uso: portões e estruturas</li>
+      </ul>
+      <div class="price">R$ 129,90</div>
+      <button onclick="comprar('Tubo Metalon 30x30mm')">Comprar</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSeqyg64n1Cm4v9R0j515UFWAP5jG1CYnNvwvG_nEUcnWGjt_9vXVwC-2TdqBHvDPiZds7lAIyUp2Ed8aUrllUPXSBTmgos7HKGVD8dNF4_IgvmTQpciqOWGQ" alt="Perfil U">
+      </div>
+      <h3>Perfil U 100mm</h3>
+      <ul>
+        <li>Comprimento: 6m</li>
+        <li>Aço estrutural</li>
+        <li>Alta capacidade de carga</li>
+        <li>Uso: mezaninos e galpões</li>
+      </ul>
+      <div class="price">R$ 389,90</div>
+      <button onclick="comprar('Perfil U 100mm')">Comprar</button>
+    </div>
+
+  </div>
+</section><section>
+  <h2>Nossos Produtos</h2>
+  <div class="products">
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://picsum.photos/400/300?1" alt="Chapa Galvanizada">
+      </div>
+      <h3>Chapa Galvanizada 0,90mm</h3>
+      <ul>
+        <li>Dimensão: 1,20 x 2,40m</li>
+        <li>Revestimento zincado</li>
+        <li>Alta resistência à corrosão</li>
+        <li>Uso: coberturas e fechamentos</li>
+      </ul>
+      <div class="price">R$ 279,90</div>
+      <button onclick="comprar('Chapa Galvanizada 0,90mm')">Comprar</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://picsum.photos/400/300?2" alt="Chapa Preta">
+      </div>
+      <h3>Chapa Preta 3mm</h3>
+      <ul>
+        <li>Dimensão: 1,00 x 2,00m</li>
+        <li>Aço laminado a quente</li>
+        <li>Alta resistência estrutural</li>
+        <li>Uso industrial</li>
+      </ul>
+      <div class="price">R$ 319,90</div>
+      <button onclick="comprar('Chapa Preta 3mm')">Comprar</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://picsum.photos/400/300?3" alt="Tubo Metalon">
+      </div>
+      <h3>Tubo Metalon 30x30mm</h3>
+      <ul>
+        <li>Espessura: 1,20mm</li>
+        <li>Comprimento: 6m</li>
+        <li>Soldável</li>
+        <li>Uso: portões e estruturas</li>
+      </ul>
+      <div class="price">R$ 129,90</div>
+      <button onclick="comprar('Tubo Metalon 30x30mm')">Comprar</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image parallax-card">
+        <img src="https://picsum.photos/400/300?4" alt="Perfil U">
+      </div>
+      <h3>Perfil U 100mm</h3>
+      <ul>
+        <li>Comprimento: 6m</li>
+        <li>Aço estrutural</li>
+        <li>Alta capacidade de carga</li>
+        <li>Uso: mezaninos e galpões</li>
+      </ul>
+      <div class="price">R$ 389,90</div>
+      <button onclick="comprar('Perfil U 100mm')">Comprar</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div>
+      <h4>Oeste Chapas</h4>
+      <p>
+        Empresa especializada em chapas e perfis metálicos, unindo tecnologia, logística e atendimento técnico para entregar soluções completas.
+      </p>
+    </div>
+    <div>
+      <h4>Atendimento</h4>
+      <p>WhatsApp: (00) 00000-0000</p>
+      <p>Email: contato@oestechapas.com.br</p>
+    </div>
+    <div>
+      <h4>Informações</h4>
+      <p>Entrega para toda a região</p>
+      <p>Nota fiscal eletrônica</p>
+      <p>Pagamento seguro</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+function comprar(produto) {
+  alert("Produto selecionado: " + produto + "\\nRedirecionar para checkout ou WhatsApp.");
+}
+</script>
+
+</body>
+</html><header>
+  <h1>OESTE <span>CHAPAS</span></h1>
+  <p>
+    Especialistas em chapas de aço, perfis metálicos e soluções estruturais para construção civil e indústria.
+    Compre online com segurança, estoque em tempo real e entrega rápida.
+  </p>
+</header>
+
+
+<script src="/script/script.js"></script>
+
+<script>
+function comprar(produto) {
+  alert("Produto selecionado: " + produto + "\\nRedirecionar para checkout ou WhatsApp.");
+}
+</script>
+
+</body>
+</html>
